@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "player1",
+      "language": "Korean",
+      "level": "Beginner",
+      "progress": {
+        "words_learned": 20,
+        "total_words": 200,
+        "current_score": 75
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "1",
+      "korean": "안녕하세요",
+      "translation": "Hello",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "korean": "감사합니다",
+      "translation": "Thank you",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "korean": "사랑",
+      "translation": "Love",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "korean": "친구",
+      "translation": "Friend",
+      "completed": false
+    },
+    {
+      "id": "5",
+      "korean": "음식",
+      "translation": "Food",
+      "completed": false
+    },
+    {
+      "id": "6",
+      "korean": "학교",
+      "translation": "School",
+      "completed": false
+    },
+    {
+      "id": "7",
+      "korean": "공부",
+      "translation": "Study",
+      "completed": false
+    },
+    {
+      "id": "0",
+      "korean": "자동차",
+      "translation": "Car",
+      "completed": false
+    }
+  ]
+}
