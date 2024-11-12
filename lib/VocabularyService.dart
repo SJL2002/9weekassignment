@@ -11,7 +11,7 @@ class VocabularyService {
     final response = await http.get(Uri.parse('$baseUrl/vocabulary'));
 
     if (response.statusCode == 200) {
-      final jsonList = jsonDecode(response.body) as List;
+      final jsonList = jsonDecode(utf8.decode(response.bodyBytes)) as List;
       return jsonList.map((json) => Vocabulary.fromJson(json)).toList();
     } else {
       throw Exception('Failed to load vocabulary');
